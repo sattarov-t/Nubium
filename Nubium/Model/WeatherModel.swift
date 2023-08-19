@@ -31,9 +31,9 @@ struct WeatherModel {
         case 800:
             return "clear"
         case 801...804:
-            return "clouds"
+            return "cloud"
         default:
-            return "clouds"
+            return "cloud"
         }
     }
 }
